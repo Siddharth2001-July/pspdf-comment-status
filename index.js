@@ -1,7 +1,7 @@
-import "./assets/pspdfkit.js";
+const PSPDFKit = window.PSPDFKit;
 
 // We need to inform PSPDFKit where to look for its library assets, i.e. the location of the `pspdfkit-lib` directory.
-const baseUrl = `${window.location.protocol}//${window.location.host}/assets/`;
+const baseUrl = 'https://cdn.cloud.pspdfkit.com/pspdfkit-web@2024.4.0/';
 
 var _instance = null;
 

@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "pspdfkit": "^2024.4.0"
   },
   "scripts": {
     "add-assets": "cp -R ./node_modules/pspdfkit/dist/ ./assets/",
