@@ -1,0 +1,6 @@
+[build]
+  # ignore = "true"
+[functions]
+  node_bundler = "esbuild"
+[caching]
+  disabled = true
